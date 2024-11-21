@@ -29,7 +29,7 @@
           <a class="nav-link" href="reverse.php">Text Reversal</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="get-result.php">Get result</a>
+          <a class="nav-link" href="guess.php">Guessing Game</a>
         </li>
       </ul>
     </div>
