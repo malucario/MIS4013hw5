@@ -24,7 +24,7 @@ Include "view-header.php";
       const userGuess = parseInt(document.getElementById('userGuess').value);
 
       if (userGuess === randomNumber) {
-        document.getElementById('result').innerText = `You win :) My number was ${randomNumber}`;
+        document.getElementById('result').innerText = `You win :) My number was ${randomNumber}. Guess again and I'll think of a new number.`;
         randomNumber = generateRandomNumber();
       } else {
         document.getElementById('result').innerText = `You lose :P Guess again.`;
