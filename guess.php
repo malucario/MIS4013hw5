@@ -25,12 +25,10 @@ Include "view-header.php";
 
       if (userGuess === randomNumber) {
         document.getElementById('result').innerText = `You win :) My number was ${randomNumber}`;
+        randomNumber = generateRandomNumber();
       } else {
-        document.getElementById('result').innerText = `You lose :P My number was ${randomNumber}`;
+        document.getElementById('result').innerText = `You lose :P Guess again.`;
       }
-
-      // Generate a new number for the next round
-      randomNumber = generateRandomNumber();
     }
   </script>
 
